@@ -1,3 +1,5 @@
+package example
+
 sealed class Platform {
     abstract fun showName()
 }
