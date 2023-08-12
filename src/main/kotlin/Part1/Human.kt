@@ -1,4 +1,4 @@
-package example
+package Part1
 
 class Human {
     fun showName(name: String) {

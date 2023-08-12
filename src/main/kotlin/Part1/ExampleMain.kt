@@ -1,4 +1,4 @@
-package example
+package Part1
 
 //develop
 fun main(){
