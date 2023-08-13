@@ -1,5 +1,6 @@
-package example
+package Part1
 
+//develop
 fun main(){
     for(i in 1..5) {
         println("i is $i")

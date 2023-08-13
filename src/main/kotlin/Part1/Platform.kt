@@ -1,4 +1,4 @@
-package example
+package Part1
 
 sealed class Platform {
     abstract fun showName()
