@@ -1,14 +1,14 @@
 package Part2
 
 class User1 {
-    var name: String = ""
+    var nam: String = ""
 
     //ゲッターとセッターという書き方はKotlinではしなくていい
     fun getName(): String {
-        return this.name
+        return this.nam
     }
 
     fun setName(name: String) {
-        this.name =name
+        this.nam =name
     }
 }
