@@ -16,9 +16,23 @@ class SampleFunctions {
         }
         println(text)
     }
+
+    fun printOddNumbers(): String{
+        val list = mutableListOf<Int>()
+        for (i in 1..10){
+            if(i%2 == 1){
+                list.add(i)
+            }
+        }
+        val oddNumbers = list.joinToString ( separator = " " )
+
+        return oddNumbers
+    }
 }
 
 fun main(){
     val sampleFunctions = SampleFunctions()
-    sampleFunctions.printOddEvenNumberText(4)
+//    sampleFunctions.printOddEvenNumberText(4)
+
+    println(sampleFunctions.printOddNumbers())
 }
